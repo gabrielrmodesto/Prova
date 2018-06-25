@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="372.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RelatorioController">
+   <children>
+      <TableView fx:id="tableVIewRelatorio" prefHeight="331.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="tableColumnNome" prefWidth="213.0" text="Nome" />
+          <TableColumn fx:id="tableColumnSituacao" prefWidth="159.0" text="Situacao" />
+          <TableColumn fx:id="tableColumnCidade" prefWidth="227.0" text="Cidade" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnImprimeRelatorio" layoutX="503.0" layoutY="339.0" mnemonicParsing="false" onAction="#imprimeRelatorio" text="Imprimir" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="20.0" />
+   </children>
+</AnchorPane>
