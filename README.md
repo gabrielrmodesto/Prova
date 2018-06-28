@@ -13,6 +13,11 @@ IReport
 ```
 
 > Padrão MVC
+```
+Model
+View
+Controller
+```
 
 >JAVAFX
 ```
